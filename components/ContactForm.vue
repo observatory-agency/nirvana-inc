@@ -100,7 +100,6 @@
                                 id="full_name"
                                 type="text"
                                 name="full_name"
-                                autocomplete="name"
                                 class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
                                 placeholder="Full name"
                                 required
@@ -110,9 +109,8 @@
                             <label for="email" class="sr-only">Email</label>
                             <input
                                 id="email"
-                                name="email"
                                 type="email"
-                                autocomplete="email"
+                                name="email"
                                 class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
                                 placeholder="Email"
                                 required
@@ -122,9 +120,8 @@
                             <label for="phone" class="sr-only">Phone</label>
                             <input
                                 id="phone"
-                                type="text"
+                                type="tel"
                                 name="phone"
-                                autocomplete="tel"
                                 class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
                                 placeholder="Phone"
                                 required

@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'nirvana-inc',
+        title: 'An Integrated Treatment Model | Nirvana Inc',
         htmlAttrs: {
             lang: 'en',
         },
@@ -14,7 +14,12 @@ export default {
                 name: 'viewport',
                 content: 'width=device-width, initial-scale=1',
             },
-            { hid: 'description', name: 'description', content: '' },
+            {
+                hid: 'description',
+                name: 'description',
+                content:
+                    'Nirvana Inc is an integrated treatment model that seeks to respond to the problem of addiction in our communities and society at large by implementing a new model for treatment and wellness',
+            },
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
