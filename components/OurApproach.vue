@@ -188,10 +188,13 @@
 
             <div class="mt-12 lg:mt-24">
                 <h3 class="text-2xl text-gray-800">
-                    Here are some resources from leading minds <br />
+                    Here are some resources from leading minds
+                    <br class="hidden lg:block" />
                     informing our perspective.
                 </h3>
-                <div class="relative mt-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+                <div
+                    class="relative mt-8 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8"
+                >
                     <div class="space-y-4">
                         <iframe
                             width="100%"
@@ -201,7 +204,7 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
                         ></iframe>
-                        <p class="text-center text-gray-700">
+                        <p class="text-gray-700 lg:text-center">
                             Here is a video of one of a leading doctor in our
                             field Dr. Gabor Mate discussing the scope of the
                             scourge of addiction.
@@ -216,7 +219,7 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
                         ></iframe>
-                        <p class="text-center text-gray-700">
+                        <p class="text-gray-700 lg:text-center">
                             Here is a video of a discussion by Mark Wolyn about
                             inherited trauma and how it can be the source of
                             unexplained illnesses. Mark explains how the effects
@@ -234,7 +237,7 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
                         ></iframe>
-                        <p class="text-center text-gray-700">
+                        <p class="text-gray-700 lg:text-center">
                             Here is a video of Dr. Kevin McCauley discussing the
                             neurobiological elements of addiction. He outlines
                             validations of the longstanding hypothesis that

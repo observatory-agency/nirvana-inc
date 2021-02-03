@@ -1,6 +1,6 @@
 <template>
     <section id="faq" class="py-12 content-wrapper lg:py-24">
-        <div class="grid grid-cols-2 gap-8">
+        <div class="grid gap-8 lg:grid-cols-2">
             <div>
                 <h3
                     class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl"
@@ -62,7 +62,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="relative">
+                <div class="relative hidden lg:block">
                     <LeafOne />
                     <LeafTwo class="z-50 lg:absolute left-64 bottom-24" />
                     <LeafThree />

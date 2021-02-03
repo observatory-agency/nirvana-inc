@@ -98,7 +98,7 @@
                         class="relative mx-auto rounded-lg shadow-lg"
                         width="486"
                         src="~/assets/img/services.jpg"
-                        alt=""
+                        alt="Clean living room"
                     />
                 </div>
             </div>
@@ -167,7 +167,7 @@
                         </p>
                     </div>
 
-                    <div class="relative mt-10 -mx-4 lg:mt-0 lg:col-start-1">
+                    <div class="relative mt-10 lg:-mx-4 lg:mt-0 lg:col-start-1">
                         <svg
                             class="absolute transform -translate-x-1/2 translate-y-16 left-1/2 lg:hidden"
                             width="784"
@@ -205,7 +205,7 @@
                             class="relative mr-auto rounded-lg shadow-lg"
                             width="486"
                             src="~/assets/img/nutrition.jpg"
-                            alt=""
+                            alt="Plate of healthy food on a dinner table"
                         />
                     </div>
                 </div>

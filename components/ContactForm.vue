@@ -11,7 +11,7 @@
                     <h2
                         class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl"
                     >
-                        Contact us Today for more information
+                        Contact us today for more information
                     </h2>
                     <dl class="mt-8 text-base text-gray-500">
                         <div>
@@ -75,8 +75,7 @@
                 <div class="max-w-lg mx-auto lg:max-w-none">
                     <form
                         name="contact-form"
-                        method="post"
-                        action="/thank-you"
+                        method="POST"
                         netlify
                         netlify-honeypot="bot-field"
                         data-netlify-recaptcha="true"
@@ -98,12 +97,13 @@
                                 >Full name</label
                             >
                             <input
+                                id="full_name"
                                 type="text"
                                 name="full_name"
-                                id="full_name"
                                 autocomplete="name"
                                 class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
                                 placeholder="Full name"
+                                required
                             />
                         </div>
                         <div>
@@ -115,17 +115,19 @@
                                 autocomplete="email"
                                 class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
                                 placeholder="Email"
+                                required
                             />
                         </div>
                         <div>
                             <label for="phone" class="sr-only">Phone</label>
                             <input
+                                id="phone"
                                 type="text"
                                 name="phone"
-                                id="phone"
                                 autocomplete="tel"
                                 class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
                                 placeholder="Phone"
+                                required
                             />
                         </div>
                         <div>
@@ -136,6 +138,7 @@
                                 rows="4"
                                 class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
                                 placeholder="Message"
+                                required
                             ></textarea>
                         </div>
                         <div>
@@ -145,7 +148,7 @@
                             ></div>
                             <button
                                 type="submit"
-                                class="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-green-600 border border-transparent rounded-md shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                                class="inline-flex justify-center px-6 py-3 mt-4 text-base font-medium text-white bg-green-600 border border-transparent rounded-md shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
                             >
                                 Submit
                             </button>
