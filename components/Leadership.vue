@@ -6,7 +6,7 @@
                     <h2
                         class="text-3xl font-extrabold tracking-tight sm:text-4xl"
                     >
-                        Meet our leadership
+                        About Us
                     </h2>
                 </div>
                 <div class="grid gap-8 lg:grid-cols-3">
@@ -16,7 +16,6 @@
                                 class="space-y-1 text-lg font-medium leading-6"
                             >
                                 <h3 class="text-xl">Dr. Valsa Madhava</h3>
-                                <p class="text-green-600">Our Doctor</p>
                             </div>
                             <div class="text-lg">
                                 <p class="text-gray-500">
@@ -36,7 +35,6 @@
                                 class="space-y-1 text-lg font-medium leading-6"
                             >
                                 <h3 class="text-xl">Pattie Reiss</h3>
-                                <p class="text-green-600">Our Nutritionist</p>
                             </div>
                             <div class="text-lg">
                                 <p class="text-gray-500">
@@ -58,7 +56,6 @@
                                 <h3 class="text-xl">
                                     Rev. Deacon Steven Demartino
                                 </h3>
-                                <p class="text-green-600">Our Deacon</p>
                             </div>
                             <div class="text-lg">
                                 <p class="text-gray-500">
