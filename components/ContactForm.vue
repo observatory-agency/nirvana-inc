@@ -68,8 +68,8 @@
                                 >Full name</label
                             >
                             <input
-                                type="text"
                                 id="full_name"
+                                type="text"
                                 name="full_name"
                                 class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
                                 placeholder="Full name"

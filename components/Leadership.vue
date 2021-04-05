@@ -27,6 +27,21 @@
                                     patients with HIV/AIDS in New York.
                                 </p>
                             </div>
+                            <div class="space-y-2">
+                                <iframe
+                                    width="100%"
+                                    height="215"
+                                    src="https://www.youtube.com/embed/mrkaJkq-Bh0"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                ></iframe>
+                                <p class="text-center text-gray-600">
+                                    Here's a video of Dr. Madhava discussing
+                                    treatment methods
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="">
@@ -46,9 +61,24 @@
                                     and holistic gourmet cooking.
                                 </p>
                             </div>
+                            <div class="space-y-2">
+                                <iframe
+                                    width="100%"
+                                    height="215"
+                                    src="https://www.youtube.com/embed/jvGf_vWQXtk"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                ></iframe>
+                                <p class="text-center text-gray-600">
+                                    Here's a video of Patti talking about
+                                    Nutritional Therapy.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div class="space-y-4">
                             <div
                                 class="space-y-1 text-lg font-medium leading-6"
@@ -65,6 +95,19 @@
                                     pastoral care across the body-mind-spirit
                                     dimensions; the design of innovative health
                                     and behavioral health programs.
+                                </p>
+                            </div>
+                            <div class="space-y-2">
+                                <video width="100%" height="215" controls>
+                                    <source
+                                        src="https://plloyd.s3.amazonaws.com/nirvana-hero.mov"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center text-gray-600">
+                                    Here's a video of Steven talking about our
+                                    treatment approach.
                                 </p>
                             </div>
                         </div>
